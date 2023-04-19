@@ -1,0 +1,43 @@
+﻿<Window x:Class="WpfReekerExam.Main.View.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfReekerExam.Main.View"
+        mc:Ignorable="d"
+        Title="Control Panel" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="12*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+
+        <Border Style="{StaticResource brd1}" Grid.RowSpan="2" Background="{StaticResource bck2}"></Border>
+
+
+        <Button Content="1" FontSize="30" FontWeight="DemiBold" Name="Table1" Style="{StaticResource btn}" BorderThickness="2" Grid.Column="1" HorizontalAlignment="Left" Margin="24,10,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="Button_Click">
+        </Button>
+
+        <Button Content="2" FontSize="30" FontWeight="DemiBold" Name="Table2" Style="{StaticResource btn}" BorderThickness="2" Grid.Column="1" HorizontalAlignment="Left" Margin="214,10,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="Button_Click">
+        </Button>
+
+        <Button Content="3" FontSize="30" FontWeight="DemiBold" Name="Table3" Style="{StaticResource btn}" BorderThickness="2" Grid.Column="1" HorizontalAlignment="Left" Margin="398,10,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="Button_Click">
+        </Button>
+
+        <Button Content="4" FontSize="30" FontWeight="DemiBold" Name="Table4" Style="{StaticResource btn}" BorderThickness="2" Grid.Column="1" HorizontalAlignment="Left" Margin="24,179,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="Button_Click"/>
+
+        <Button Content="5" FontSize="30" FontWeight="DemiBold" Name="Table5" Style="{StaticResource btn}" BorderThickness="2" Grid.Column="1" HorizontalAlignment="Left" Margin="214,179,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="Button_Click">
+        </Button>
+
+        <Button Content="6" FontSize="30" FontWeight="DemiBold" Name="Table6" Style="{StaticResource btn}" BorderThickness="2" Grid.Column="1" HorizontalAlignment="Left" Margin="398,179,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="Button_Click">
+        </Button>
+
+        <Button Content="Check // Reset" Style="{StaticResource checkBtn}" Margin="36,352,36,31" Grid.RowSpan="2" BorderThickness="0" Background="#F6F3FF" FontWeight="Bold" Foreground="#22223b" Click="Button_Click_1"/>
+    </Grid>
+</Window>

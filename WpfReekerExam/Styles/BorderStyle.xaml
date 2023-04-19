@@ -1,0 +1,37 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <LinearGradientBrush x:Key="bck1" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#212139" Offset="0" />
+        <GradientStop Color="#17172C" Offset="0.5" />
+        <GradientStop Color="#2F2F4A" Offset="1" />
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="bck2" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#161627" Offset="0" />
+        <GradientStop Color="#272740" Offset="0.5" />
+        <GradientStop Color="#1C1C2C" Offset="1" />
+    </LinearGradientBrush>
+
+    <Style TargetType="Border" x:Key="brd1">
+        <Setter Property="Background" Value="#212139"></Setter>
+    </Style>
+
+    <Style TargetType="Border" x:Key="brd2">
+        <Setter Property="Background" Value="#F6F3FF"></Setter>
+    </Style>
+
+
+
+    <LinearGradientBrush x:Key="MenuBack" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#161627" Offset="0" />
+        <GradientStop Color="#272740" Offset="0.5" />
+        <GradientStop Color="#1C1C2C" Offset="1" />
+        <GradientStop Color="#161627" Offset="1.5" />
+    </LinearGradientBrush>
+
+    <Style TargetType="Border" x:Key="Menus">
+        <Setter Property="Background" Value="#F6F3FF"></Setter>
+    </Style>
+
+</ResourceDictionary>

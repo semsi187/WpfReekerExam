@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="InfoPage\Icons\github.png" />
+    <None Remove="InfoPage\Icons\ico.png" />
+    <None Remove="InfoPage\Icons\instagram.png" />
+    <None Remove="InfoPage\Icons\mail.png" />
+    <None Remove="InfoPage\Icons\steam.png" />
+    <None Remove="LoginPage\Static\Image\back.jpg" />
+    <None Remove="LoginPage\Static\Image\icon.png" />
+    <None Remove="LoginPage\Static\Image\pass.png" />
+    <None Remove="LoginPage\Static\Image\user.png" />
+    <None Remove="OrderListPage\Icons\ico.png" />
+    <None Remove="RegisterPage\Static\Image\icon.png" />
+    <None Remove="RegisterPage\Static\Image\pass.png" />
+    <None Remove="RegisterPage\Static\Image\pntr.jpg" />
+    <None Remove="RegisterPage\Static\Image\user.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="LoginPage\Static\Sound\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="InfoPage\Icons\github.png" />
+    <Resource Include="InfoPage\Icons\ico.png" />
+    <Resource Include="InfoPage\Icons\instagram.png" />
+    <Resource Include="InfoPage\Icons\mail.png" />
+    <Resource Include="InfoPage\Icons\steam.png" />
+    <Resource Include="LoginPage\Static\Image\back.jpg" />
+    <Resource Include="LoginPage\Static\Image\icon.png" />
+    <Resource Include="LoginPage\Static\Image\pass.png" />
+    <Resource Include="LoginPage\Static\Image\user.png" />
+    <Resource Include="OrderListPage\Icons\ico.png" />
+    <Resource Include="RegisterPage\Static\Image\icon.png" />
+    <Resource Include="RegisterPage\Static\Image\pass.png" />
+    <Resource Include="RegisterPage\Static\Image\pntr.jpg" />
+    <Resource Include="RegisterPage\Static\Image\user.png" />
+  </ItemGroup>
+
+</Project>

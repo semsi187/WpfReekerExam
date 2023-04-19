@@ -1,0 +1,30 @@
+﻿<Window x:Class="WpfReekerExam.InfoPage.CoderInfo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfReekerExam.InfoPage"
+        mc:Ignorable="d"
+        Title="CoderInfo" Height="450" Width="800" WindowStartupLocation="CenterScreen" Icon="Icons\ico.png">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Image Source="Icons\mail.png" Margin="266,12,195,354" Grid.ColumnSpan="2"/>
+        <Image Source="Icons\instagram.png" Margin="3,98,192,268" Grid.Column="1"/>
+        <Image Source="Icons\steam.png" Margin="5,183,194,183" Grid.Column="1"/>
+        <Image Source="Icons\github.png" Margin="3,273,192,93" Grid.Column="1"/>
+
+        <Label Foreground="#2A90C7" FontWeight="Bold" Content="kenn187@protonmail.com" Margin="75,21,10,354" Grid.Column="1"></Label>
+        <Label Foreground="#B12EA4" FontWeight="Bold" Content="@semsiespada" Margin="74,107,10,268" Grid.Column="1"></Label>
+        <Label Foreground="#243A7D" FontWeight="Bold" Content="Kenn1337" Margin="75,192,10,183" Grid.Column="1"></Label>
+        <Label Foreground="#2F2F2F" FontWeight="Bold" Content="Semsi187" Margin="73,282,14,93" Grid.Column="1"></Label>
+
+        <Border Style="{StaticResource brd1}"></Border>
+        <Border Style="{StaticResource brd1}" Grid.Column="1" Grid.ColumnSpan="2" Margin="266,0,0,0"></Border>
+    </Grid>
+</Window>

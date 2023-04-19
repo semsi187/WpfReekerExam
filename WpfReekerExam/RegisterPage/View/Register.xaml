@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfReekerExam.RegisterPage.View.Register"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfReekerExam.RegisterPage.View"
+        mc:Ignorable="d"
+        Title="Register" Height="450" Width="800" WindowStartupLocation="CenterScreen" Icon="..\Static\Image\icon.png">
+
+    <Grid Background="#F6F3FF">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="287*"></ColumnDefinition>
+            <ColumnDefinition Width="513*"/>
+        </Grid.ColumnDefinitions>
+
+        <Image Source="..\Static\Image\pntr.jpg" Margin="0,-251,-550,-243" Grid.Column="1"/>
+
+        <TextBox x:Name="newUser" Style="{StaticResource loginBox}" HorizontalAlignment="Left" Margin="69,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176" Height="38" TextChanged="newUser_TextChanged"></TextBox>
+        <TextBox x:Name="newPass" Style="{StaticResource loginBox}" HorizontalAlignment="Left" Margin="69,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176" Height="38" TextChanged="newPass_TextChanged"></TextBox>
+
+        <Button x:Name="SignIn" Style="{StaticResource joinBtn}" Content="Sign in" Margin="113,238,86,136" Click="SignIn_Click"></Button>
+
+        <Image Source="..\Static\Image\user.png" Margin="21,66,203,307"/>
+        <Image Source="..\Static\Image\pass.png" Margin="21,127,203,246"/>
+
+    </Grid>
+</Window>
